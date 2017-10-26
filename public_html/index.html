@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css"/>
+         <script type="text/javascript" src="javascript.js"></script>
+    </head>
+    <body>
+        <div>
+            <select id="estaSemana" class="cancionesActua" size="5">
+                <option value="1">What about us (Pink)</option>
+                <option value="2">No vaya a ser (Pablo Alborán)</option>
+                <option value="3">Mi gente (J Balvin y Willy William)</option>
+                <option value="4">Friends(Justin Bieber y BloodPop)</option>
+                <option value="5">Look what you made me do(Taylor Swift)</option>
+            </select>
+            <div class="menulistas">
+            <button type="button" onclick="pasarCancionSemanaPasada()">---></button><br>
+            <button type="button" onclick="pasarTodasSemanaPasada()">-->></button><br>
+            <button type="button" onclick="pasarCancionEstaSemana()"><---</button><br>
+            <button type="button" onclick="pasarTodasEstaSemana()"><<---</button><br>
+            </div>
+            <select id="semanaPasada" class="cancionesPasada" size="5">
+                <option value="1">OK(Robin Schulz y James Blunt)</option>
+                <option value="2">Galway girl(Ed Sheeran)</option>
+                <option value="3">Me rehúso(Danny Ocean)</option>
+                <option value="4">Saturno(Pablo Alborán)</option>
+                <option value="5">New rules(Dua Lipa)</option>
+            </select>
+            <div class="botones">
+            <button type="button" onclick="verElemento()">Ver Elemento</button></br> </br> 
+            <button type="button" onclick="añadirElemento()">Añadir Elemento</button> </br> </br> 
+            <button type="button" onclick="tamanoLista()">Tamaño Lista</button> </br> </br> 
+            <button type="button" onclick="borrarElemento()">Borrar Elemento</button></br></br>
+            <button type="button" onclick="borrarTodo()">Borrar Todo</button> </br> </br> 
+            <button type="button" onclick="sumarMaxYMin()">Sumar Max y Min</button> </br> </br>
+            <div class="radiobutton">
+            Copiar <input type="radio" id="copiar">
+            Mover <input type="radio" id="mover">
+            </div>
+            <textarea id="textArea" rows="4" cols="50">
+            </textarea>
+        
+    </body>
+</html>

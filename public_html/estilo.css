@@ -1,0 +1,27 @@
+.cancionesActua{
+    position:relative;
+}
+.cancionesPasada{
+    position:relative;
+    left:33%;
+    top: -170px;
+    width: 300px;
+}
+textArea{
+    position:relative;
+    top:-200px;
+    left:30%;
+}
+.menulistas{
+    position:relative;
+    left:25%;
+    top:-85px;
+}
+.botones{
+    position: relative;
+    top:-150px;
+}
+.radiobutton{
+    position: relative;
+    top:-0px;
+}
